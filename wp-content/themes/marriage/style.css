@@ -65,7 +65,7 @@ h1, h2, h3, h4{font-family: 'Ovo', serif; color:#53462e;}
 .title{ text-align:center;margin:0px; padding:55px 0 10px 0px;font-family: 'Great Vibes', cursive;font-size:72px;}
 .description{font-family: 'Great Vibes', cursive;font-size:24px; margin:auto; display:block; text-align:center;}
 .swirl_left{ background:url(images/swirl_left.png) no-repeat left; padding:0 0 0 50px;}
-.swirl_right{ background:url(images/swirl_right.png) no-repeat right; padding:0 50px 0 0px;}
+.swirl_right{ background:url(images/swirl_right.png) no-repeat right; padding:0 50px 0 0px; color:purple}
 /* Menu Structure
 /*-----------------------------------------------------------------------------------*/
 .show_menu{ display:none;}

@@ -16,10 +16,10 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+define('DB_NAME', 'maqsoods_zpeng');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'maqsoods_zpeng');
 
 /** MySQL database password */
 define('DB_PASSWORD', '19840617');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'V/9x$prQh%L]wO]d-];>?5u2)8BdA=XzI.[m{jefdc;9Cb6-mp6=}XB:RU`1/^DA');
+define('SECURE_AUTH_KEY',  '%VV;cZ.avb?2ik%hxy]@,GJ9)35NIhkG9{Ht~=0vOdX:,6k(CB`SXGl->t0NMW(b');
+define('LOGGED_IN_KEY',    'fB[WTG>$7nK,.lV~Y%l(QzWwVOobE<|+7v2pG6CUZ%N}IP`ootXd7pvs/K0~/th$');
+define('NONCE_KEY',        'BR>rT_SK*B9Chj<h*XZTR,<#C#ExEo@VyzPGeOhzhWsbE]$=r@&ujqh}UfD|!K;*');
+define('AUTH_SALT',        ',}6kd{{;mW04kHIQq|+&e}j9IUg-FsUn>MdJ9Pf,hQ+T=2v QE:#.4x9`g~km^}H');
+define('SECURE_AUTH_SALT', '5DC>{T=%Ia0a)(%kZ) 6HKpkSD7J@1U!c:eW!0FdQqD(B0ALTipq5gZgjZ]0Cq>z');
+define('LOGGED_IN_SALT',   '2D3.~FMV3AOE:zW$kckdrX;0>eX]Y:49e wZ~w7EB=w3@Ne,X&6iM)%pzK:rDmx;');
+define('NONCE_SALT',       ')2r{#,0d05^mri2SsbxX4[gWbHC+!e>JnCDm[T5LEMNrSM6sS1v@eDQ0gpg KhOo');
 
 /**#@-*/
 
@@ -80,7 +80,7 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy blogging. */
+/* That's alswirl_rightl, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
@@ -88,3 +88,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+ini_set('display_errors', '0');
