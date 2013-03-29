@@ -284,7 +284,7 @@ input#searchsubmit{float:left; cursor:pointer;-moz-border-radius:5px; -webkit-bo
 }
 input#s:focus{ border-color:#a2a2a2; }
 
-.comments_container{float:right;width:496px;}
+.comments_container{float:left;width:90%; padding-top: 40px; padding-left: 10px}
 
 .commentlist{padding:10px 0 0 0; margin:20px 0 45px 0; list-style:none;border-top:2px #F0EEE5 solid;}
 .commentlist li{padding:0px 0 10px 0; margin:0px 0 10px 0; list-style:none; border-bottom:2px #F0EEE5 solid;}

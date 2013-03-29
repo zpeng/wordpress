@@ -22,6 +22,7 @@ get_header(); ?>
 
         <?php wp_link_pages(array('before' => '<p><strong>Pages:</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 
+        <?php comments_template(); ?>
 
     </div>
     <?php endwhile; endif; ?>
